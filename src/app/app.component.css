@@ -1,0 +1,50 @@
+.item{
+    background-color: #ddd;
+    color: white;
+    height: 200px;
+    width: 100%;
+}
+.item div{
+    width: 100px;
+    background-color: #666;
+    height: 100px;
+}
+
+.items div {
+    width: 100px;
+    background-color: #666;
+    height: 100px;
+}
+.lc{
+    background-color: #333;
+    height: 300px;
+    /* Location of the image */
+    background-image: url('/assets/images/background.jpg');
+    
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    
+    /* Background image is fixed in the viewport so that it doesn't move when 
+        the content's height is greater than the image's height */
+    /* background-attachment: fixed; */
+    
+    /* This is what makes the background image rescale based
+        on the container's size */
+    background-size: cover;
+    
+    /* Set a background color that will be displayed
+        while the background image is loading */
+    background-color: #464646;
+}
+.wrap div,.responsive div{
+    background-color: gainsboro;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.xsClass{
+    background-color: red !important;
+}
